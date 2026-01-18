@@ -11,6 +11,13 @@ namespace MyApp.Static
         public static long population;
 
 
+        public static void message()
+        {
+            Console.WriteLine("Hello from static constructor!");
+
+            // Console.WriteLine(this.age); // cannot use this in static method
+        }
+
         public Human(int age, string name, int salary, bool isMarried)
         {
             this.age = age;
@@ -19,6 +26,8 @@ namespace MyApp.Static
             this.isMarried = isMarried;
 
             Human.population += 1;
+
+            Human.message();
         }
     }
 }
