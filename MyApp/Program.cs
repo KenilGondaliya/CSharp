@@ -9,6 +9,6 @@ class Program
         // WrapperClass.Wrapper(args);
         // Main1.MainMethod(args);
         // StaticBlock.run(args);
-        InnerClass.Run(args);
+        // InnerClass.Run(args);
     }
 }
