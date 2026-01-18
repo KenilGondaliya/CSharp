@@ -2,9 +2,9 @@ using System;
 
 namespace MyApp.Static
 {
-    internal class Main1
+    internal class StaticInt
     {
-        public static void MainMethod(string[] args)
+        public static void run(string[] args)
         {
             
         }
