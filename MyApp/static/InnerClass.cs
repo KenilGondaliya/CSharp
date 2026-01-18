@@ -2,18 +2,20 @@ using System;
 
 namespace MyApp.Static
 {
-    class Test
-    {
-        public string name;
-
-        public Test(string name)
-        {
-            this.name = name;
-        }
-    }
 
     internal class InnerClass
     {
+
+        class Test
+        {
+            public string name;
+
+            public Test(string name)
+            {
+                this.name = name;
+            }
+        }
+
 
         public static void Run(string[] args)
         {
