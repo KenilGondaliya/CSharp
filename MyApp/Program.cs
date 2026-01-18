@@ -8,5 +8,6 @@ class Program
         // Intro.Run(args);
         // WrapperClass.Wrapper(args);
         // Main1.MainMethod(args);
+        StaticBlock.run(args);
     }
 }
