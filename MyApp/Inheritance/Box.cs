@@ -15,9 +15,6 @@ namespace MyApp.Inheritance
             this.w = -1;
         }
 
-
-
-
         // cube
         public Box(double side)
         {
@@ -33,7 +30,6 @@ namespace MyApp.Inheritance
             this.w = w;
         }
 
-
         public Box(Box old)
         {
             this.l = old.l;
@@ -46,6 +42,14 @@ namespace MyApp.Inheritance
             Console.WriteLine("Running Box class");
         }
 
+
+        // overriding depend on the object type
+        // static method not depend on the object
+        // cannot override static method
+        static public void greeting()
+        {
+            Console.WriteLine("Hello everyone!");
+        }
 
     }
 }

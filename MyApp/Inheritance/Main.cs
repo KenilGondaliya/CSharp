@@ -29,7 +29,9 @@ namespace MyApp.Inheritance
             
 
 
-            BoxPrice box = new BoxPrice(5,8,200);
+            // BoxPrice box = new BoxPrice(5,8,200);
+
+            Box.greeting(); // you can inherit static method but not override
         }
     }
 }

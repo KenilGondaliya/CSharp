@@ -4,7 +4,7 @@ namespace MyApp.Polymorphism
 {
     public class Shapes
     {
-        public void area()
+        public virtual void area()
         {
             Console.WriteLine("I am in shapes.");
         }
