@@ -1,6 +1,7 @@
 ﻿using System;
 using MyApp.Class;
 using MyApp.Static;
+using MyApp.Polymorphism;
 class Program
 {
     static void Main(string[] args)
@@ -10,5 +11,6 @@ class Program
         // Main1.MainMethod(args);
         // StaticBlock.run(args);
         // InnerClass.Run(args);
+        PolyMain.Show(args);
     }
 }
