@@ -8,9 +8,8 @@ namespace MyApp.Polymorphism
         public static void Show(string[] args)
         {
             Shapes shape = new Shapes();
-            Circle circle = new Circle();
-            Triangle triangle = new Triangle();
-            Square square = new Square();
+            Shapes circle = new Circle();
+            Shapes square = new Square();
 
             shape.area();
         }

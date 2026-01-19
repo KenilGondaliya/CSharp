@@ -1,6 +1,6 @@
 using System;
 
-namespace MyApp.Polumorphism
+namespace MyApp.Polymorphism
 {
     public class Shapes
     {
