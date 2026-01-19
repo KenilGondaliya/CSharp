@@ -11,6 +11,7 @@ class Program
         // Main1.MainMethod(args);
         // StaticBlock.run(args);
         // InnerClass.Run(args);
-        PolyMain.Show(args);
+        // PolyMain.Show(args);
+        ObjectPrint.PrintObject(args);
     }
 }
