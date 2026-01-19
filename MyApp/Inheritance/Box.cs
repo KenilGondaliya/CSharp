@@ -16,6 +16,8 @@ namespace MyApp.Inheritance
         }
 
 
+
+
         // cube
         public Box(double side)
         {
@@ -44,6 +46,6 @@ namespace MyApp.Inheritance
             Console.WriteLine("Running Box class");
         }
 
-        
+
     }
 }
