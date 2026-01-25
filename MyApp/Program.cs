@@ -2,6 +2,7 @@
 using MyApp.Class;
 using MyApp.Static;
 using MyApp.Polymorphism;
+using MyApp.Abstract;
 class Program
 {
     static void Main(string[] args)
@@ -12,6 +13,8 @@ class Program
         // StaticBlock.run(args);
         // InnerClass.Run(args);
         // PolyMain.Show(args);
-        ObjectPrint.PrintObject(args);
+        // ObjectPrint.PrintObject(args);
+        AbstractMain.Run(args);
+
     }
 }
