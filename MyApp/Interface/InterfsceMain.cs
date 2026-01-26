@@ -18,12 +18,14 @@ namespace MyApp.Interface
             // IMedia carMedia = new Car();
             // carMedia.Stop();
 
-            NiceCar car = new NiceCar();
-            car.StartEngine();
-            car.StartMusic();
-            car.UpgradeEngine();
-            car.StartEngine();
+            // NiceCar car = new NiceCar();
+            // car.StartEngine();
+            // car.StartMusic();
+            // car.UpgradeEngine();
+            // car.StartEngine();
 
+
+            NestedInterface.NestedMain.Run(args);
         }
     }
 }
