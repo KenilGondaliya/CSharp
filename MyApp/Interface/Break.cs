@@ -2,9 +2,9 @@ using System;
 
 namespace MyApp.Interface
 {
-    public interface IBreak
+    public interface IBrake
     {
-        void Break();
+        void Brake();
         
     }
 }

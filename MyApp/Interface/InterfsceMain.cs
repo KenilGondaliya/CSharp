@@ -4,11 +4,11 @@ namespace MyApp.Interface
 {
     public class InterfaceMain
     {
-       public static void Run(string[] args)
+        public static void Run(string[] args)
         {
             // IEngine car = new Car();
             // car.Start();
-            
+
             // car.Accelerate();
             // // car.Break();
             // car.Stop();
@@ -21,6 +21,9 @@ namespace MyApp.Interface
             NiceCar car = new NiceCar();
             car.StartEngine();
             car.StartMusic();
-        }   
+            car.UpgradeEngine();
+            car.StartEngine();
+
+        }
     }
 }

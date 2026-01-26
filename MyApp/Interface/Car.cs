@@ -2,9 +2,9 @@ using System;
 
 namespace MyApp.Interface
 {
-    public class Car : IBreak, IEngine , IMedia
+    public class Car : IBrake, IEngine , IMedia
     {
-        public void Break()
+        public void Brake()
         {
             Console.WriteLine("Car Breaked");
         }

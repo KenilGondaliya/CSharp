@@ -14,9 +14,9 @@ namespace MyApp.Interface
             engine = new PowerEngine();
         }
 
-        public NiceCar(IEngine engine)
+        public void UpgradeEngine()
         {
-            this.engine = engine;
+            this.engine = new ElectricEngine();
         }
 
 
