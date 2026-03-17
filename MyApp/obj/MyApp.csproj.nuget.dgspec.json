@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\MyApp\\MyApp.csproj": {}
+    "E:\\D\\C#\\MyApp\\MyApp.csproj": {}
   },
   "projects": {
-    "D:\\C#\\MyApp\\MyApp.csproj": {
+    "E:\\D\\C#\\MyApp\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\MyApp\\MyApp.csproj",
+        "projectUniqueName": "E:\\D\\C#\\MyApp\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "D:\\C#\\MyApp\\MyApp.csproj",
+        "projectPath": "E:\\D\\C#\\MyApp\\MyApp.csproj",
         "packagesPath": "C:\\Users\\KENIL GONDALIYA\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\MyApp\\obj\\",
+        "outputPath": "E:\\D\\C#\\MyApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

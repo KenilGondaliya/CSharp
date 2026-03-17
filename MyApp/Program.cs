@@ -16,7 +16,8 @@ class Program
         // PolyMain.Show(args);
         // ObjectPrint.PrintObject(args);
         // AbstractMain.Run(args);
-        InterfaceMain.Run(args);
+        // InterfaceMain.Run(args);
+        
 
     }
 }
