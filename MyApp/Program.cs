@@ -5,6 +5,8 @@ using MyApp.Abstract;
 using MyApp.Interface;
 using First;
 using MyApp.DataType;
+using MyApp.DataType.ValueType.StructType;
+
 class Program
 {
     static void Main(string[] args)
@@ -19,6 +21,9 @@ class Program
         // AbstractMain.Run(args);
         // InterfaceMain.Run(args);
         // First.Test2.Run1(args);
-        DataTypeMain.Run(args);
+        // DataTypeMain.Run(args);
+        // TupleMain.Run(args);
+        DelegateMain.Run(args);
+
     }
 }
