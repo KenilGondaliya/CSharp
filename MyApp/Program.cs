@@ -1,9 +1,10 @@
-﻿using System;
-using MyApp.Class;
+﻿using MyApp.Class;
 using MyApp.Static;
 using MyApp.Polymorphism;
 using MyApp.Abstract;
 using MyApp.Interface;
+using First;
+using MyApp.DataType;
 class Program
 {
     static void Main(string[] args)
@@ -17,7 +18,7 @@ class Program
         // ObjectPrint.PrintObject(args);
         // AbstractMain.Run(args);
         // InterfaceMain.Run(args);
-        
-
+        // First.Test2.Run1(args);
+        DataTypeMain.Run(args);
     }
 }

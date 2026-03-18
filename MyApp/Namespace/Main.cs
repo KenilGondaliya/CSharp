@@ -1,10 +1,10 @@
 using System;
 
-namespace first
+namespace First
 {
     class Test
     {
-        public static void Main(string[] args)
+        public static void Run(string[] args)
         {
             Console.WriteLine("Hello Greek!");
         }
@@ -12,9 +12,9 @@ namespace first
 
     class Test2
     {
-        public static void Main(string[] args)
+        public static void Run1(string[] args)
         {
-            first.Test.Main(args);
+            Test.Run(args);
         }
     }
 }
