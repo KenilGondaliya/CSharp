@@ -1,7 +1,13 @@
 
-
 namespace MyApp.DataType.ReferenceType.Collections
 {
+    public class Element
+    {
+        public required string Symbol { get; init; }
+        public required string Name { get; init; }
+        public required int AtomicNumber { get; init; }
+    }
+
     public class CollectionMain
     {
         public static void Run(string[] args)
@@ -32,6 +38,8 @@ namespace MyApp.DataType.ReferenceType.Collections
             {
                 Console.WriteLine(salmon + " ");
             }
+
+
         }
     }
 }
