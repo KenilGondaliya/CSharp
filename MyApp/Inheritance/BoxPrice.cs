@@ -1,6 +1,5 @@
 using System;
 
-
 namespace MyApp.Inheritance
 {
     public class BoxPrice : BoxWeight

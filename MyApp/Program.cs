@@ -6,6 +6,7 @@ using MyApp.Interface;
 using First;
 using MyApp.DataType;
 using MyApp.DataType.ValueType.StructType;
+using MyApp.DataType.ReferenceType.Collections;
 
 class Program
 {
@@ -23,7 +24,7 @@ class Program
         // First.Test2.Run1(args);
         // DataTypeMain.Run(args);
         // TupleMain.Run(args);
-        DelegateMain.Run(args);
-
+        // DelegateMain.Run(args);
+        CollectionMain.Run(args);
     }
 }
