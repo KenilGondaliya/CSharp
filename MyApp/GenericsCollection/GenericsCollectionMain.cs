@@ -1,4 +1,3 @@
-
 namespace MyApp.GenericsCollection;
 
 public class GenericsCollectionMain
